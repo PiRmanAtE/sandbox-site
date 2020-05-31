@@ -4743,3 +4743,6 @@ img.mfp-img {
   justify-content: space-between;
   height: 100%;
 }
+.example {
+  cursor: pointer;
+}
