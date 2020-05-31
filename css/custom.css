@@ -17,7 +17,31 @@
 .example {
     cursor: pointer;
 }
-
+#services {
+    padding-top: 0;
+}
+.tg-icon img{
+    filter: invert();
+    width: 15px;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.wt-icon img{
+    filter: invert();
+    width: 18px;
+    margin-top: -4px;
+}
+.fb-icon img{
+    filter: invert();
+    width: 10px;
+}
+.social.social-round {
+    display: inline-block;
+}
+.section-banner .row-base{
+    display: flex;
+    align-items: center;
+}
 @media (max-width: 460px) {
     .img-brand {
         width: 240px;
