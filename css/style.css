@@ -4726,3 +4726,20 @@ img.mfp-img {
   border-top: 1px solid #4c4c4c;
   margin-top: 24px;
 }
+
+.prices .row-base{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prices .row-base .price-table{
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.prices .row-base .price-body{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100%;
+}
