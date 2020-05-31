@@ -975,8 +975,9 @@ a.fa:focus {
 }
 
 .img-brand {
-  width: 300px;
+  width: 350px;
   height: 100px;
+  object-fit: cover;
 }
 
 .brand:hover,
@@ -4727,22 +4728,3 @@ img.mfp-img {
   margin-top: 24px;
 }
 
-.prices .row-base{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.prices .row-base .price-table{
-  height: 100%;
-  display: flex;
-  flex-flow: column;
-}
-.prices .row-base .price-body{
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  height: 100%;
-}
-.example {
-  cursor: pointer;
-}
