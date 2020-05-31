@@ -975,8 +975,9 @@ a.fa:focus {
 }
 
 .img-brand {
-  width: 300px;
+  width: 350px;
   height: 100px;
+  object-fit: cover;
 }
 
 .brand:hover,
@@ -4726,3 +4727,4 @@ img.mfp-img {
   border-top: 1px solid #4c4c4c;
   margin-top: 24px;
 }
+

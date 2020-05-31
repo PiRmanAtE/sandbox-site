@@ -1,0 +1,27 @@
+.prices .row-base{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prices .row-base .price-table{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.prices .row-base .price-body{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.example {
+    cursor: pointer;
+}
+
+@media (max-width: 460px) {
+    .img-brand {
+        width: 240px;
+        height: 80px;
+        object-fit: cover;
+    }
+}
